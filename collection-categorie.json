@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "7c39cc18-4353-4d06-a5cb-6fe44237a9aa",
+		"name": "Collection_categorie",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "38098654"
+	},
+	"item": [
+		{
+			"name": "LIster",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/categories"
+			},
+			"response": []
+		},
+		{
+			"name": "Ajouter",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nom\": \"Apéritif\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/categories"
+			},
+			"response": []
+		},
+		{
+			"name": "Modifier",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nom\": \"Apéro\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/categories/6"
+			},
+			"response": []
+		},
+		{
+			"name": "Supprimer",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:3000/categories/7"
+			},
+			"response": []
+		}
+	]
+}
