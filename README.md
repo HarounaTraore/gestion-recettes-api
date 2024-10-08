@@ -47,7 +47,7 @@ npm install
    Ouvrez le terminal dans le dossier courant, copiez le commande ci-dessous en remplaçant `user_name` par votre `nom d'utilisateur`
 
 ```bash
-  mysql -u user_name -p gestion_recettes < gestion_recettes.sql
+  mysql -u user_name -p < gestion-recettes.sql
 ```
 3. Modifiez le fichier `.env.example`en le nommant `.env` pour y insérer les informations de connexion à la base de données.
 
