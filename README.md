@@ -254,8 +254,4 @@ Pour tester les différents endpoints de l'API, vous pouvez utiliser la collecti
 
 ## Auteur
 
-[Abderahmane Thimbo](https://github.com/AbderahmaneThimbo)
-
-## Contributeur
-
 [Harouna Traoré](https://github.com/HarounaTraore)
